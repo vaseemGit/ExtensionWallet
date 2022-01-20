@@ -1,0 +1,357 @@
+section.profile .p_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+section.profile .img {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+    background: #BB85FF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+}
+
+section.profile .img img {
+    width: 90%;
+}
+section.profile .p_head a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+/* identical to box height, or 157% */
+    letter-spacing: -0.408px;
+
+/* accent/2 */
+    color: #587BE0;
+}
+
+section.profile .p_head a i {
+    margin-right: 5px;
+}
+
+section.profile .p_content .top {
+    margin-bottom: 20px;
+}
+
+section.profile .p_content h4 {
+    color: #414047;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+section.profile .p_content p {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6F6E73;
+}
+
+section.profile .p_content a {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #587BE0;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+section.profile .p_content button.open {
+    background: #414047;
+    border-radius: 10px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: 0;
+}
+
+section.profile .p_content button.open i {
+    margin-left: 20px;
+    transform: rotate(-45deg);
+}
+
+section.profile .p_content .bottom {
+    display: flex;
+    align-items: center;
+}
+
+section.profile .p_content .bottom p {
+    margin-left: 10px;
+    color: #6F6E73;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+section.profile .p_content .bottom p i {
+    margin-right: 5px;
+}
+
+
+section.tabber {
+    margin-top: 30px;
+}
+
+section.tabber ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.tabber ul li {
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #DFDFE0;
+    padding-bottom: 15px;
+}
+
+section.tabber ul li a {
+    text-decoration: none;
+    color: #6F6E73;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.154px;
+}
+
+section.tabber ul li.active {
+    border-bottom: 3px solid #33373B;
+}
+
+.tab-content {
+    padding: 20px;
+   
+}
+
+.tab-content.show {
+    display: block;
+}
+
+.tab-content h4 {
+    color: #414047;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.154px;
+    margin-bottom: 15px;
+}
+
+.tab-content p {
+    color: #414047;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.tab-content a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #587BE0;
+    display: flex;
+    align-items: center;
+}
+
+.tab-content a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+.tab-content.activity-cont {
+    text-align: center;
+}
+
+.tab-content.activity-cont span.badge {
+    color: #6F6E73;
+    background: #F5F5F5;
+    border-radius: 20px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    display: inline-block;
+    padding: 2px 10px;
+    margin-bottom: 20px;
+}
+
+.tab-content.activity-cont ul {
+    display: block;
+}
+
+.tab-content.activity-cont ul li {
+    width: 100%;
+    border: 0;
+    padding-bottom: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tab-content.activity-cont ul li .img img {
+    width: 40px;
+    margin-right: 20px;
+}
+.tab-content.activity-cont ul li .content p span {
+    color: #885FFF;
+}
+
+.tab-content.activity-cont ul li .content p {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.tab-content.activity-cont ul li .content span.date {
+    color: #6F6E73;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+
+.share_popup {
+    background: rgba(51, 55, 59, 0.4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+.share_popup.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+.share-popup-inner {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10PX;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.share-popup-inner .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.share-popup-inner .title h4 {
+    color: #414047;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.share-popup-inner .title span {
+    color: #6F6E73;
+    font-size: 40px;
+}
+
+.share_popup .copy-text {
+    background: #EAEFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #587BE0;
+    margin-bottom: 30px;
+}
+
+.share_popup .copy-link {
+    text-align: center;
+}
+
+.share_popup .copy-link a {
+    text-decoration: none;
+    color: #587BE0;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.share_popup .copy-link a i {
+    margin-right: 10px;
+}
+
+.share_popup .social-share ul {
+    display: flex;
+    justify-content: center;
+}
+
+.share_popup .social-share ul li a i {
+    color: #587BE0;
+    font-size: 20px;
+}
+
+.share_popup .social-share ul li {
+    margin-right: 30px;
+}
+
+.social-share {
+    margin-top: 30px;
+}
+
+
+.share_popup .social-share ul li:last-child {
+    margin-right: 0;
+}

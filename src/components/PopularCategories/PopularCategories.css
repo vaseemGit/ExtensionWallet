@@ -1,0 +1,292 @@
+.container_inner{
+    padding: 0 15px;
+}
+
+
+
+.header-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search .icon img {
+    width: 30px;
+}
+
+.header-search form {
+    padding: 0 20px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    /* width: 269px; */
+    height: 40px;
+}
+
+.header-search button.search {
+    margin-right: 10px;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+
+button.search i.fas.fa-search {
+    color: #6F6E73;
+    font-size: 20px;
+}
+
+.header-search input {
+    border: 0;
+    background: none;
+    padding: 0 10px;
+    height: 40px;
+}
+
+.header-search input::-webkit-input-placeholder {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #BEBEC2;
+}
+
+header {
+    margin: 20px 0;
+}
+
+
+h4 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+    text-align: left;
+    letter-spacing: -0.154px;
+    margin-bottom: 20px;
+}
+
+
+section.recent-exp .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+section.recent-exp .item img {width: 60%;}
+
+section.recent-exp .img {
+    width: 90px;
+    height: 90px;
+    background: #2F80ED;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.recent-exp .item.docu .img {
+    background: #BB85FF;
+}
+
+
+section.recent-exp .item .content {
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+}
+
+section.recent-exp .item .content h5 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height */
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+section.recent-exp .item .content  p {
+    color: #6F6E73;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+section.recent-exp .item .content  a {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+/* identical to box height, or 183% */
+
+
+/* blue/100 */
+    color: #587BE0;
+    text-decoration: none;
+}
+
+section.recent-exp .item .content i {
+    color: #6F6E73;
+}
+
+
+
+section.categories .cat-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.categories .cat-card .card {
+    width: 46%;
+    padding: 10px 10px;
+    margin: 0 2%;
+    margin-bottom: 20px;
+}
+
+section.categories .cat-card .img {
+    width: 64px;
+    height: 65px;
+    border-radius: 50%;
+    background: #587BE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.categories .cat-card .img img {
+    width: 64%;
+}
+
+.card.exchages {
+    background: #EAEFFF;
+    border-radius: 6px;
+}
+
+.card.games {
+    background: #F5F5F5;
+    border-radius: 6px;
+}
+
+.card.marketplaces {
+    background: #E2F9F3;
+    border-radius: 6px;
+}
+
+.card.defi {
+    background: #FFF3EC;
+    border-radius: 6px;
+}
+
+.card.collectibles {
+    background: #EBF5FF;
+    border-radius: 6px;
+}
+
+.card.utilities {
+    background: #F0EBFF;
+    border-radius: 6px;
+}
+
+.card.collectibles .img {
+    background: #54AAF9 !important;
+}
+
+.card.utilities .img {
+    background: #885FFF !important;
+}
+
+.card.exchages .img {
+    background: #414047;
+}
+
+
+section.categories .cat-card .card.games .img {
+    background: #414047;
+}
+
+section.categories .cat-card .card.marketplaces .img {
+    background: #34AE91;
+}
+
+
+section.categories .cat-card .card.defi .img {
+    background: #F98F54;
+}
+
+section.categories .cat-card .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section.categories .cat-card .title i {
+    color: #6F6E73;
+    font-size: 13px;
+}
+
+section.categories .cat-card .title h6 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(51, 55, 59, 0.7);
+}
+
+section.categories .cat-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+section.categories .cat-title a {
+    color: #885FFF;
+    text-decoration: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+section.categories .cat-title a i {
+    margin-left: 5px;
+}
+
+section.recent-exp .exp-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+section.recent-exp .exp-title a {
+    color: #885FFF;
+    text-decoration: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+section.recent-exp .exp-title a i {
+    margin-left: 5px;
+}

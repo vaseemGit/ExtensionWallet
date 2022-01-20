@@ -1,0 +1,171 @@
+.custom-img {
+    width: 100%;
+    height: auto;
+}
+
+.ninja-txt {
+    color: #8959f8;
+    font-family: Manrope, sans-serif;
+    ;
+}
+
+.offer-txt {
+    color: #8959f8;
+    font-family: Manrope, sans-serif;
+    ;
+
+}
+
+.profile-pic {
+    width: 12%;
+    height: auto;
+    float: left;
+}
+
+.user-name p {
+    padding: 10px;
+}
+
+.offers-pic {
+    width: 12%;
+    height: auto;
+    float: left;
+}
+
+.offer-name p {
+    padding: 10px;
+}
+
+.offer-name p {
+    padding: 0px;
+    line-height: 23px;
+    font-size: 17px;
+}
+
+.send-time {
+    padding-left: 39px;
+}
+
+.action-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.action-btn a {
+    background-color: #202020;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    display: block;
+    width: auto;
+    float: left;
+    margin: 6px;
+}
+
+.top-heading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.offer-btn {
+    width: 95%;
+    background-color: #8a5af8;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+
+.offer-header .col-left {
+    float: left;
+}
+
+#offer-header .col-right {
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+#offer-body .col-body {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 49px;
+}
+
+#offer-balance .col-right {
+    float: right;
+    position: absolute;
+    right: 31px;
+    top: 230px;
+}
+
+.col-body .right-txt {
+    float: right;
+    width: 30%;
+    border-left: 1px solid gray;
+    text-align: right;
+    height: 40px;
+    padding-top: 9px;
+    line-height: 34px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+#offer-header .offer-txt1 {
+    color: #8a5af8;
+    font-weight: 700;
+}
+
+.price-txt {
+    line-height: 50px;
+    padding: 14px;
+}
+
+#counter-offer-footer {
+    margin-top: 20px;
+}
+
+#counter-offer-body .col-body {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 49px;
+}
+
+.sender-txt {
+    float: left;
+    line-height: 74px;
+}
+
+.counter-offer-pic {
+    margin-left: 30px;
+}
+
+.counter-offer-block {
+    border: 1px solid gray;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    padding: 15px;
+}
+.reject-offer-select{
+	width: 100%;
+    height: inherit;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.reject-btn {
+    width: 95%;
+    background-color: #363636;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    height: 22px;
+    padding-top: 14px;
+}
