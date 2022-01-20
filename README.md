@@ -9,8 +9,13 @@ To run this application:
 5. The first defualt page is for offers
 6. The other pages are located at following location:
 	http://localhost:3000/makeoffer
+	
 	http://localhost:3000/makecounteroffer
+	
 	http://localhost:3000/rejectoffer
+	
 	http://localhost:3000/acceptoffer
+	
 	http://localhost:3000/recentexperience
+	
 	http://localhost:3000/popularcategories
